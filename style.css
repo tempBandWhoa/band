@@ -10,16 +10,20 @@ body, html {
 
 .bg1 {
     /* The image used */
-    background-image: url("band.jpg");
+    background-image: url("drums1.jpeg");
     /* background: black; */
   
-    /* Full height */
+    /* Full height */   
     height: 100%;
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hotlist a {
+    text-decoration: none;
 }
 
 span.border {
@@ -38,4 +42,14 @@ h1 {
 a {
     text-decoration: underline;
     color: white;   
+}
+
+table {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+thead {
+    font-weight: bold;
 }

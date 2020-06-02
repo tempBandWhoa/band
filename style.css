@@ -1,5 +1,4 @@
 body, html {
-    text-align: center;
     color: white;
     height: 100%;
     margin: 0%;
@@ -15,14 +14,24 @@ body, html {
   
     /* Full height */   
     height: 100%;
-  
+    
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    text-align: center;
 }
 
-.hotlist a {
+.home{
+    text-align: center;
+    margin-left: 3%;
+    font-size: 30px;
+    border: 2px;
+    border-color: darkturquoise;
+}
+
+.hotlist a,.home a {
     text-decoration: none;
 }
 
@@ -53,3 +62,11 @@ table {
 thead {
     font-weight: bold;
 }
+
+/* #header {
+    position: fixed;
+}
+  
+#content {
+    margin-top: 100px;
+} */

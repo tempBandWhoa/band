@@ -27,46 +27,18 @@ body, html {
     text-align: center;
     margin-left: 3%;
     font-size: 30px;
-    border: 2px;
-    border-color: darkturquoise;
 }
 
 .hotlist a,.home a {
     text-decoration: none;
 }
 
-span.border {
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-
 h1 {
     color: white;
     font-size: 100px;
-    background-color: rgb (0, 40, 77);
 }
 
 a {
     text-decoration: underline;
     color: white;   
 }
-
-table {
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-thead {
-    font-weight: bold;
-}
-
-/* #header {
-    position: fixed;
-}
-  
-#content {
-    margin-top: 100px;
-} */
